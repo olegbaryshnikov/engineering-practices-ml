@@ -36,3 +36,5 @@ poetry run isort ./hw1/test.py # format file
 ```
 poetry run flake8 ./hw1/test.py
 ```
+
+Example in hw1: test.py is original file and another files are formatted versions.

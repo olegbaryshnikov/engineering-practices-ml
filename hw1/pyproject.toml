@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hw1"
+version = "0.1.0"
+description = ""
+authors = ["Oleg Baryshnikov baryshnikovod@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+
+
+[tool.poetry.group.prod.dependencies]
+numpy = "^1.26.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

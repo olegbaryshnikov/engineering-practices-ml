@@ -1,18 +1,26 @@
-git lfs have been chosen
+**git lfs have been chosen**
 
-1) To track the csv files (or another extension):
+**To track specific file or extension:**
 ```
-git lfs track *.csv
+# specific file
+git lfs track file.ext 
+# extension
+git lfs track *.ext 
 ```
 
-2) To add new or update any files use ordinary git commands:
+**To add new or update any files use ordinary git commands:**
 ```
 git add <path-to-files>
 git commit
 git push
 ```
 
-3) To get specific version of data use:
+**To use previous (or current) versions of whole reposiotry use ordinary git commands:**
 ```
-TODO
+# install git lfs before the next step
+# clone current version
+git clone https://github.com/olegbaryshnikov/engineering-practices-ml
+
+# go to created dir, revert changes to chosen commit
+git reset --hard cac0e929c0df6602a56a8269461ea36ae3e88db9
 ```

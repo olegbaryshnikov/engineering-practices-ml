@@ -1,0 +1,11 @@
+**For this task Prefect pipline manager have been chosen.**  
+
+**pipeline.py contains training/infrence pipeline**
+**DAG of this pipeline**
+![Imgur](https://i.imgur.com/6XaXLvW.png)
+
+**Processed dataset and splitted datasets presented in mid_results dir**
+
+**Results of pipeline are stored in output dir:**
+INFO    | Task run 'get_accuracy-0' - Model accuracy: 0.7777777777777778
+TODO: add links here

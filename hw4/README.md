@@ -6,4 +6,5 @@ Code to use Neptune AI have been added to piplene as Prefect tasks.
   
 ![Imgur](https://i.imgur.com/vjdof8D.png)  
   
-Experiments report in report.html file.
+Experiments report in report.html file:  \
+[Htmlpreview for report.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/olegbaryshnikov/engineering-practices-ml/main/hw4/report.html)
